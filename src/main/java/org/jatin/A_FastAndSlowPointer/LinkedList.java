@@ -56,8 +56,8 @@ public class LinkedList {
         destinationNode.next = startNode;
     }
 
-    public void print(LinkedList list) {
-        ListNode node = list.head;
+    public void print(ListNode head) {
+        ListNode node = head;
         while (node != null) {
             System.out.print(node.val);
             node = node.next;
